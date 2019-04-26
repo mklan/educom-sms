@@ -1,0 +1,33 @@
+{
+  "name": "educom-sms",
+  "version": "1.0.0",
+  "description": "send educom web-sms via nodejs api",
+  "main": "index.js",
+  "dependencies": {
+    "puppeteer": "^1.15.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mklan/educom-sms.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mklan/educom-sms/issues"
+  },
+  "homepage": "https://github.com/mklan/educom-sms#readme",
+  "keywords": [
+    "sms",
+    "educom",
+    "text",
+    "api"
+  ],
+  "author": "Matthias Klan <matthias.klan@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.2"
+  }
+}
