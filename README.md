@@ -1,6 +1,6 @@
-# educom-sms
+# xoxo-sms
 
-send educom websms via nodejs api.
+send xoxo websms via nodejs api.
 
 ## install
 
