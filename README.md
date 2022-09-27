@@ -1,27 +1,28 @@
 # xoxo-sms
 
-send xoxo websms via nodejs api.
+send xoxo / educom websms via nodejs api.
 
-## install
+## Install
 
-`npm install educom-sms`
+`yarn add educom-sms`
 
-## api
+## Api
 
 ```javascript
-const sendText = require('educom-sms');
+import sendText from 'educom-sms';
 
 await sendText({
   user: 'your educom login (phone)', 
   password: 'educom password', 
   recipient: '0043123456789',  // international notation
   text: 'hello, how are you?',
+  provider: 'xoxo' // defaults to educom
 });
 
 ```
 
-## help
+## Help
 
-if puppeteer fails to run, due to sandbox errors, try to run:
+If puppeteer fails to run (due to sandbox errors) run:
 
 `sudo sysctl -w kernel.unprivileged_userns_clone=1`
